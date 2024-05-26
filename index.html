@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock_Paper_Scissors</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header">
+        <p>
+          &COPY; 2024
+          <a href="https://www.linkedin.com/in/allan-kamau-84b9382a6/">
+            Allan Muhari
+          </a>
+        </p>
+        <p class="score_board" id="score_board">Computer 0 0 player</p>
+      </div>
+      <div class="game_container">
+        <div class="computer_selection">
+          <p>Computer</p>
+          <p class="emoji">✊</p>
+        </div>
+        <div class="result" id="result"><p>Draw</p></div>
+        <div class="player_selection" id="player_choice">
+          <p>Player</p>
+          <p class="emoji" id="rock">✊</p>
+        </div>
+        <div class="selections" id="selections">
+          <button class="selection-button" id="rock-btn">
+            <p>✊</p>
+            <p class="selection_text">rock</p>
+          </button>
+          <button class="selection-button" id="paper-btn">
+            <p>✋</p>
+            <p class="selection_text">paper</p>
+          </button>
+          <button class="selection-button" id="scissors-btn">
+            <p>✋</p>
+            <p class="selection_text">scissors</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
